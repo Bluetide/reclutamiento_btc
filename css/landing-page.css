@@ -1,0 +1,136 @@
+body {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  letter-spacing: -0.01em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+header.masthead {
+  position: relative;
+  background-color: #343a40;
+  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+.collapse.navbar-collapse {
+    flex-direction: row-reverse;
+}
+a.nav-link {
+    padding: 0.5em 1em!important;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+li.nav-item.end {
+    padding-left: 1.5em;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0082c3;
+    border-color: #0082c3;
+}
+
+
+header.masthead .overlay {
+  position: absolute;
+  background-color: #212529;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+.navbar {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+a.navbar-brand img {
+    width: 150px;
+}
+h3.subtitle {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: -40px;
+    font-size: 22px;
+}
+small.mini-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #1c82c3;.
+}
+h2.test-q {
+    margin-bottom: 25px;
+}
+.ans {
+    border: 2px dashed #dadada;
+    padding: 30px;
+    border-radius: 4px;
+}
+.test-enun ol li {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.bg-blue {
+    background-color: #1c82c3;
+}
+li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+h3.test-q {
+    font-size: 1.4em;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+.showcase .showcase-text {
+  padding: 3rem;
+}
+
+.showcase .showcase-img {
+  min-height: 30rem;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .showcase .showcase-text {
+    padding: 7rem;
+  }
+}
+
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+
+
+
+footer.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
